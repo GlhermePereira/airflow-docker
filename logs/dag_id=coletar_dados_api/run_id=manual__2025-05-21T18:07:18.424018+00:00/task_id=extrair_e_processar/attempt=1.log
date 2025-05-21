@@ -1,0 +1,14 @@
+[2025-05-21T18:07:21.972+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: coletar_dados_api.extrair_e_processar manual__2025-05-21T18:07:18.424018+00:00 [queued]>
+[2025-05-21T18:07:21.976+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: coletar_dados_api.extrair_e_processar manual__2025-05-21T18:07:18.424018+00:00 [queued]>
+[2025-05-21T18:07:21.977+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2025-05-21T18:07:21.984+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): extrair_e_processar> on 2025-05-21 18:07:18.424018+00:00
+[2025-05-21T18:07:21.988+0000] {standard_task_runner.py:57} INFO - Started process 60 to run task
+[2025-05-21T18:07:21.990+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'coletar_dados_api', 'extrair_e_processar', 'manual__2025-05-21T18:07:18.424018+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/coleta_dados.py', '--cfg-path', '/tmp/tmp9pugf8uo']
+[2025-05-21T18:07:21.991+0000] {standard_task_runner.py:85} INFO - Job 2: Subtask extrair_e_processar
+[2025-05-21T18:07:22.001+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-05-21T18:07:22.021+0000] {task_command.py:415} INFO - Running <TaskInstance: coletar_dados_api.extrair_e_processar manual__2025-05-21T18:07:18.424018+00:00 [running]> on host ebb2a514cc84
+[2025-05-21T18:07:22.068+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='coletar_dados_api' AIRFLOW_CTX_TASK_ID='extrair_e_processar' AIRFLOW_CTX_EXECUTION_DATE='2025-05-21T18:07:18.424018+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-21T18:07:18.424018+00:00'
+[2025-05-21T18:09:37.658+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-05-21T18:09:37.664+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=coletar_dados_api, task_id=extrair_e_processar, execution_date=20250521T180718, start_date=20250521T180721, end_date=20250521T180937
+[2025-05-21T18:09:37.700+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-05-21T18:09:37.709+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
