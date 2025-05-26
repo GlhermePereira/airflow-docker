@@ -16,12 +16,13 @@ services:
     depends_on:
       - postgres
     environment:
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     entrypoint: >
       bash -c "
-      airflow db init &&
-      airflow users create --username airflow --password airflow --firstname Admin --lastname User --role Admin --email airflow@example.com
+        airflow db init &&
+        airflow users create --username airflow --password airflow --firstname Admin --lastname User --role Admin --email airflow@example.com &&
+        airflow dags unpause coletar_dados_api
       "
     volumes:
       - ./dags:/opt/airflow/dags
@@ -37,9 +38,9 @@ services:
       - postgres
       - airflow-init
     environment:
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
-      AIRFLOW__WEBSERVER__SECRET_KEY: "my_secret_key"
+      AIRFLOW__WEBSERVER__SECRET_KEY: "my_very_secret_key_12345"
       AIRFLOW__WEBSERVER__WORKERS: 2
     ports:
       - "8081:8080"
@@ -58,7 +59,7 @@ services:
       - postgres
       - airflow-init
     environment:
-      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     volumes:
       - ./dags:/opt/airflow/dags
@@ -70,4 +71,3 @@ services:
 volumes:
   postgres_data:
   airflow_home:
-
