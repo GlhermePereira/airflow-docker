@@ -111,3 +111,262 @@
 [2025-05-27T00:10:37.603+0000] {logging_mixin.py:151} INFO - [2025-05-27T00:10:37.602+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2025-05-27T00:10:37.616+0000] {logging_mixin.py:151} INFO - [2025-05-27T00:10:37.616+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
 [2025-05-27T00:10:37.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.346 seconds
+[2025-05-27T00:11:07.696+0000] {processor.py:157} INFO - Started process (PID=51) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T00:11:07.697+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T00:11:07.697+0000] {logging_mixin.py:151} INFO - [2025-05-27T00:11:07.697+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T00:11:07.981+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T00:11:07.995+0000] {logging_mixin.py:151} INFO - [2025-05-27T00:11:07.995+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T00:11:08.008+0000] {logging_mixin.py:151} INFO - [2025-05-27T00:11:08.008+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T00:11:08.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.324 seconds
+[2025-05-27T14:38:00.599+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:38:00.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:38:00.601+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:38:00.600+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:38:00.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:38:00.966+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:38:00.966+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:38:00.981+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:38:00.981+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:38:00.991+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.394 seconds
+[2025-05-27T14:38:31.074+0000] {processor.py:157} INFO - Started process (PID=34) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:38:31.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:38:31.075+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:38:31.075+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:38:31.355+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:38:31.372+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:38:31.371+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:38:31.385+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:38:31.385+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:38:31.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.322 seconds
+[2025-05-27T14:39:01.481+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:39:01.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:39:01.482+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:39:01.482+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:39:01.765+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:39:01.779+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:39:01.778+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:39:01.792+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:39:01.792+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:39:01.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.323 seconds
+[2025-05-27T14:39:31.877+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:39:31.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:39:31.878+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:39:31.878+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:39:32.165+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:39:32.181+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:39:32.181+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:39:32.195+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:39:32.195+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:39:32.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.328 seconds
+[2025-05-27T14:40:02.280+0000] {processor.py:157} INFO - Started process (PID=40) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:40:02.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:40:02.281+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:40:02.281+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:40:02.566+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:40:02.581+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:40:02.580+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:40:02.594+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:40:02.594+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:40:02.602+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.325 seconds
+[2025-05-27T14:40:32.684+0000] {processor.py:157} INFO - Started process (PID=42) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:40:32.684+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:40:32.685+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:40:32.685+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:40:32.973+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:40:32.988+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:40:32.988+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:40:33.001+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:40:33.001+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:40:33.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.329 seconds
+[2025-05-27T14:41:03.088+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:41:03.088+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:41:03.089+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:41:03.089+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:41:03.385+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:41:03.400+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:41:03.399+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:41:03.413+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:41:03.413+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:41:03.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.337 seconds
+[2025-05-27T14:41:33.497+0000] {processor.py:157} INFO - Started process (PID=46) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:41:33.497+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:41:33.498+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:41:33.497+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:41:33.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:41:33.795+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:41:33.795+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:41:33.809+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:41:33.809+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:41:33.817+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.323 seconds
+[2025-05-27T14:42:03.897+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:42:03.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:42:03.898+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:42:03.898+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:42:04.183+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:42:04.197+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:42:04.196+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:42:04.210+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:42:04.210+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:42:04.219+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.324 seconds
+[2025-05-27T14:42:34.293+0000] {processor.py:157} INFO - Started process (PID=50) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:42:34.294+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:42:34.294+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:42:34.294+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:42:34.580+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:42:34.595+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:42:34.594+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:42:34.608+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:42:34.608+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:42:34.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.326 seconds
+[2025-05-27T14:43:04.707+0000] {processor.py:157} INFO - Started process (PID=52) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:43:04.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:43:04.708+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:43:04.708+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:43:04.990+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:43:05.005+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:43:05.004+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:43:05.018+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:43:05.018+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:43:05.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.321 seconds
+[2025-05-27T14:43:35.107+0000] {processor.py:157} INFO - Started process (PID=54) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:43:35.108+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:43:35.108+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:43:35.108+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:43:35.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:43:35.410+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:43:35.409+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:43:35.423+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:43:35.423+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:43:35.431+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.327 seconds
+[2025-05-27T14:44:05.514+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:44:05.515+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:44:05.515+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:44:05.515+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:44:05.799+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:44:05.813+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:44:05.812+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:44:05.826+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:44:05.826+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:44:05.836+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.323 seconds
+[2025-05-27T14:44:36.008+0000] {processor.py:157} INFO - Started process (PID=58) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:44:36.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:44:36.009+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:44:36.009+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:44:36.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:44:36.225+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:44:36.225+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:44:36.240+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:44:36.240+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:44:36.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.244 seconds
+[2025-05-27T14:45:06.325+0000] {processor.py:157} INFO - Started process (PID=60) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:45:06.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:45:06.326+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:45:06.326+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:45:06.529+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:45:06.545+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:45:06.545+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:45:06.561+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:45:06.561+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:45:06.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.248 seconds
+[2025-05-27T14:45:36.650+0000] {processor.py:157} INFO - Started process (PID=62) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:45:36.651+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:45:36.651+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:45:36.651+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:45:36.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:45:36.890+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:45:36.889+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:45:36.906+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:45:36.905+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:45:36.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.271 seconds
+[2025-05-27T14:46:06.998+0000] {processor.py:157} INFO - Started process (PID=64) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:46:06.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:46:06.999+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:46:06.999+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:46:07.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:46:07.214+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:46:07.213+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:46:07.228+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:46:07.227+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:46:07.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.241 seconds
+[2025-05-27T14:46:37.310+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:46:37.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:46:37.311+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:46:37.311+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:46:37.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:46:37.528+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:46:37.528+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:46:37.543+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:46:37.542+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:46:37.552+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.244 seconds
+[2025-05-27T14:47:07.626+0000] {processor.py:157} INFO - Started process (PID=68) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:47:07.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:47:07.627+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:47:07.627+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:47:07.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:47:07.846+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:47:07.845+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:47:07.860+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:47:07.860+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:47:07.870+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.247 seconds
+[2025-05-27T14:47:37.949+0000] {processor.py:157} INFO - Started process (PID=70) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:47:37.949+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:47:37.950+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:47:37.949+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:47:38.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:47:38.174+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:47:38.173+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:47:38.189+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:47:38.189+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:47:38.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.252 seconds
+[2025-05-27T14:48:08.277+0000] {processor.py:157} INFO - Started process (PID=72) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:48:08.278+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:48:08.278+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:48:08.278+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:48:08.477+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:48:08.493+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:48:08.493+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:48:08.508+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:48:08.508+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:48:08.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.242 seconds
+[2025-05-27T14:48:38.593+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:48:38.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:48:38.594+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:48:38.594+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:48:38.799+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:48:38.816+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:48:38.815+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:48:38.830+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:48:38.830+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:48:38.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.249 seconds
+[2025-05-27T14:49:08.925+0000] {processor.py:157} INFO - Started process (PID=76) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:49:08.926+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:49:08.926+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:49:08.926+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:49:09.132+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:49:09.148+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:49:09.147+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:49:09.162+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:49:09.162+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:49:09.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.248 seconds
+[2025-05-27T14:49:39.240+0000] {processor.py:157} INFO - Started process (PID=78) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:49:39.240+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:49:39.241+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:49:39.241+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:49:39.443+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:49:39.459+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:49:39.458+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:49:39.473+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:49:39.473+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:49:39.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.244 seconds
+[2025-05-27T14:50:09.548+0000] {processor.py:157} INFO - Started process (PID=80) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:50:09.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:50:09.549+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:50:09.549+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:50:09.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:50:09.764+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:50:09.764+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:50:09.779+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:50:09.779+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:50:09.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.242 seconds
+[2025-05-27T14:50:39.861+0000] {processor.py:157} INFO - Started process (PID=82) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:50:39.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:50:39.862+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:50:39.862+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:50:40.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:50:40.079+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:50:40.078+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:50:40.094+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:50:40.094+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:50:40.103+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.243 seconds
+[2025-05-27T14:51:10.171+0000] {processor.py:157} INFO - Started process (PID=84) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:51:10.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:51:10.172+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:51:10.172+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:51:10.371+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:51:10.386+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:51:10.386+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:51:10.401+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:51:10.401+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:51:10.410+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.242 seconds
+[2025-05-27T14:51:40.481+0000] {processor.py:157} INFO - Started process (PID=86) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:51:40.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:51:40.482+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:51:40.482+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:51:40.680+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:51:40.696+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:51:40.696+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:51:40.711+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:51:40.711+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:51:40.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.241 seconds
+[2025-05-27T14:52:10.793+0000] {processor.py:157} INFO - Started process (PID=88) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:52:10.793+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:52:10.794+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:52:10.794+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:52:10.995+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:52:11.011+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:52:11.011+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:52:11.026+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:52:11.025+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:52:11.035+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.245 seconds
+[2025-05-27T14:52:41.106+0000] {processor.py:157} INFO - Started process (PID=90) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:52:41.107+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:52:41.107+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:52:41.107+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:52:41.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:52:41.335+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:52:41.335+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:52:41.351+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:52:41.350+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:52:41.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.256 seconds
+[2025-05-27T14:53:11.439+0000] {processor.py:157} INFO - Started process (PID=92) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:53:11.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:53:11.440+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:53:11.439+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:53:11.641+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:53:11.657+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:53:11.657+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:53:11.671+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:53:11.671+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:53:11.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.244 seconds
+[2025-05-27T14:53:41.757+0000] {processor.py:157} INFO - Started process (PID=94) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:53:41.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:53:41.758+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:53:41.758+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:53:41.981+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:53:41.998+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:53:41.998+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:53:42.014+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:53:42.014+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:53:42.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.269 seconds
+[2025-05-27T14:54:12.101+0000] {processor.py:157} INFO - Started process (PID=96) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:54:12.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:54:12.102+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:54:12.102+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:54:12.306+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:54:12.322+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:54:12.322+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:54:12.337+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:54:12.337+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:54:12.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.248 seconds
+[2025-05-27T14:54:42.416+0000] {processor.py:157} INFO - Started process (PID=98) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:54:42.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:54:42.417+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:54:42.417+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:54:42.618+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:54:42.634+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:54:42.634+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:54:42.649+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:54:42.649+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:54:42.658+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.245 seconds
+[2025-05-27T14:55:12.734+0000] {processor.py:157} INFO - Started process (PID=115) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:55:12.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:55:12.734+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:55:12.734+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:55:12.939+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:55:12.955+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:55:12.955+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:55:12.970+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:55:12.970+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:55:12.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.249 seconds
+[2025-05-27T14:55:43.056+0000] {processor.py:157} INFO - Started process (PID=117) to work on /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:55:43.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-05-27T14:55:43.057+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:55:43.057+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:55:43.260+0000] {processor.py:839} INFO - DAG(s) dict_keys(['coletar_dados_api']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-05-27T14:55:43.276+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:55:43.275+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-27T14:55:43.290+0000] {logging_mixin.py:151} INFO - [2025-05-27T14:55:43.290+0000] {dag.py:3696} INFO - Setting next_dagrun for coletar_dados_api to 2025-05-27T00:00:00+00:00, run_after=2025-05-28T00:00:00+00:00
+[2025-05-27T14:55:43.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.245 seconds
