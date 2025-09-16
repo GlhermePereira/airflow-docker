@@ -14,4 +14,3 @@ CREATE TABLE IF NOT EXISTS etl.cryptos (
     is_profitable BOOLEAN,
     last_updated TIMESTAMP
 );
-
