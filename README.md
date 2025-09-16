@@ -28,4 +28,4 @@ O projeto extrai dados da API CoinGecko, transforma e carrega em um banco Postgr
 
 ## Demonstracao do projeto rodando
 
-![Demonstração da DAG](demo.gif)
+![Demonstração da DAG](demonstracao.gif)
