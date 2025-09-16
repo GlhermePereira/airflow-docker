@@ -1,0 +1,25 @@
+[2025-09-16T17:17:12.641+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crypto_pipeline_postgres_debug.load manual__2025-09-16T16:35:07+00:00 [queued]>
+[2025-09-16T17:17:12.646+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crypto_pipeline_postgres_debug.load manual__2025-09-16T16:35:07+00:00 [queued]>
+[2025-09-16T17:17:12.646+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-09-16T17:17:12.654+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load> on 2025-09-16 16:35:07+00:00
+[2025-09-16T17:17:12.659+0000] {standard_task_runner.py:57} INFO - Started process 284 to run task
+[2025-09-16T17:17:12.661+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'crypto_pipeline_postgres_debug', 'load', 'manual__2025-09-16T16:35:07+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/crypto_pipeline_postgres_debug.py', '--cfg-path', '/tmp/tmpw8x_ve_3']
+[2025-09-16T17:17:12.662+0000] {standard_task_runner.py:85} INFO - Job 35: Subtask load
+[2025-09-16T17:17:12.691+0000] {task_command.py:415} INFO - Running <TaskInstance: crypto_pipeline_postgres_debug.load manual__2025-09-16T16:35:07+00:00 [running]> on host 958f44e9a439
+[2025-09-16T17:17:12.740+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crypto_pipeline_postgres_debug' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2025-09-16T16:35:07+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-16T16:35:07+00:00'
+[2025-09-16T17:17:12.741+0000] {logging_mixin.py:151} INFO - === CARREGAMENTO ===
+[2025-09-16T17:17:12.749+0000] {logging_mixin.py:151} INFO - Dados a serem inseridos:
+[2025-09-16T17:17:12.761+0000] {logging_mixin.py:151} INFO -          id symbol  ... price_change_ratio  is_profitable
+0   bitcoin    btc  ...           1.015435          False
+1  ethereum    eth  ...           1.023715          False
+2   cardano    ada  ...           1.022962          False
+
+[3 rows x 11 columns]
+[2025-09-16T17:17:12.767+0000] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-16T17:17:12.771+0000] {logging_mixin.py:151} INFO - Garantindo que schema e tabela existam...
+[2025-09-16T17:17:12.772+0000] {logging_mixin.py:151} INFO - Inserindo 3 linhas no banco...
+[2025-09-16T17:17:12.779+0000] {logging_mixin.py:151} INFO - Dados inseridos com sucesso!
+[2025-09-16T17:17:12.779+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-09-16T17:17:12.785+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=crypto_pipeline_postgres_debug, task_id=load, execution_date=20250916T163507, start_date=20250916T171712, end_date=20250916T171712
+[2025-09-16T17:17:12.833+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-09-16T17:17:12.844+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

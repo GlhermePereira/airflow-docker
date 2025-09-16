@@ -1158,3 +1158,17 @@
 [2025-09-16T17:08:49.993+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:08:49.993+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2025-09-16T17:08:50.010+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:08:50.009+0000] {dag.py:3696} INFO - Setting next_dagrun for crypto_pipeline_postgres_debug to 2025-09-16T00:00:00+00:00, run_after=2025-09-17T00:00:00+00:00
 [2025-09-16T17:08:50.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.275 seconds
+[2025-09-16T17:09:20.110+0000] {processor.py:157} INFO - Started process (PID=219) to work on /opt/airflow/dags/coleta_dados.py
+[2025-09-16T17:09:20.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-09-16T17:09:20.111+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:09:20.111+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-09-16T17:09:20.351+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crypto_pipeline_postgres_debug']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-09-16T17:09:20.369+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:09:20.369+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-09-16T17:09:20.387+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:09:20.387+0000] {dag.py:3696} INFO - Setting next_dagrun for crypto_pipeline_postgres_debug to 2025-09-16T00:00:00+00:00, run_after=2025-09-17T00:00:00+00:00
+[2025-09-16T17:09:20.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.290 seconds
+[2025-09-16T17:09:50.484+0000] {processor.py:157} INFO - Started process (PID=221) to work on /opt/airflow/dags/coleta_dados.py
+[2025-09-16T17:09:50.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/coleta_dados.py for tasks to queue
+[2025-09-16T17:09:50.485+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:09:50.485+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/coleta_dados.py
+[2025-09-16T17:09:50.702+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crypto_pipeline_postgres_debug']) retrieved from /opt/airflow/dags/coleta_dados.py
+[2025-09-16T17:09:50.720+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:09:50.719+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-09-16T17:09:50.735+0000] {logging_mixin.py:151} INFO - [2025-09-16T17:09:50.735+0000] {dag.py:3696} INFO - Setting next_dagrun for crypto_pipeline_postgres_debug to 2025-09-16T00:00:00+00:00, run_after=2025-09-17T00:00:00+00:00
+[2025-09-16T17:09:50.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/coleta_dados.py took 0.264 seconds

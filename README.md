@@ -26,9 +26,6 @@ O projeto extrai dados da API CoinGecko, transforma e carrega em um banco Postgr
 
 ---
 
-## Estrutura do Projeto
+## Demonstracao do projeto rodando
 
-```text
-dags/
-└── crypto_pipeline_postgres_debug.py  -> DAG principal com ETL de criptomoedas
-docker-compose.yml                     -> Configuração de containers Airflow + Postgres
+![Demonstração da DAG](demo.gif)
